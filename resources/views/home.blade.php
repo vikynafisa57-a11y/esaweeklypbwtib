@@ -460,13 +460,15 @@
 
         <nav class="navbar">
 
+    <nav class="navbar">
+
     <div class="logo">
         Viky<span>.</span>
     </div>
 
     <div class="nav-menu">
 
-        <a href="{{ route('home') }}" class="active">
+        <a href="{{ route('home') }}">
             Home
         </a>
 
@@ -474,11 +476,17 @@
             Profile
         </a>
 
+        <a href="{{ route('berita') }}">
+            Berita
+        </a>
+
         <a href="{{ route('contact') }}">
             Contact
         </a>
 
     </div>
+
+</nav>
 
 </nav>
         </div>

@@ -332,6 +332,8 @@ footer p {
 <nav class="navbar">
     <nav class="navbar">
 
+    <nav class="navbar">
+
     <div class="logo">
         Viky<span>.</span>
     </div>
@@ -346,11 +348,17 @@ footer p {
             Profile
         </a>
 
-        <a href="{{ route('contact') }}" class="active">
+        <a href="{{ route('berita') }}">
+            Berita
+        </a>
+
+        <a href="{{ route('contact') }}">
             Contact
         </a>
 
     </div>
+
+</nav>
 
 </nav>
 </nav>
