@@ -24,7 +24,7 @@ class BeritaController extends Controller
         $beritatunggal = [];
         foreach($beritas as $berita)
             {
-                if($beritas['slug'] === $slug)
+                if($berita["slug"] === $slug)
                     {
                         $beritatunggal = $berita;
                     }
